@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[MMUserVolume]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [PurchaseDate] DATE NOT NULL DEFAULT GETDATE(), 
+    [Quantity] INT NOT NULL, 
+    [UserId] INT NOT NULL, 
+    [VolumeISBN] NVARCHAR(13) NOT NULL,
+    [TotalPrice] DECIMAL NOT NULL DEFAULT 0, 
+    CONSTRAINT FK_UserId FOREIGN KEY ([UserId]) REFERENCES [User] (Id),
+    CONSTRAINT FK_VolumeId FOREIGN KEY ([VolumeISBN]) REFERENCES [Volume] (ISBN)
+)

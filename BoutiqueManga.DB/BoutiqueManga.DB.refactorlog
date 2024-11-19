@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a8040eb1-0672-4c73-9a31-1e64c08bf4e9" ChangeDateTime="11/04/2024 10:00:21">
+    <Property Name="ElementName" Value="[dbo].[Volume].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Volume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ISBN" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dd83fc98-1ddf-4e60-ad02-e58207c5eb5b" ChangeDateTime="11/04/2024 10:02:43">
+    <Property Name="ElementName" Value="[dbo].[Volume].[Edition]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Volume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CoverImage" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6353ecbe-3505-43f4-bbdc-d30da8e91087" ChangeDateTime="11/04/2024 10:06:47">
+    <Property Name="ElementName" Value="[dbo].[Seller].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Seller]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Firstname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76d11e04-429a-4204-897a-66a4c1ea9064" ChangeDateTime="11/04/2024 10:14:13">
+    <Property Name="ElementName" Value="[dbo].[Seller].[TelNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Seller]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Telephone" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ab46aab0-760d-45cc-8958-68c8313d9b6e" ChangeDateTime="11/04/2024 10:29:15">
+    <Property Name="ElementName" Value="[dbo].[MMClientVolume].[date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMClientVolume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Date" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d25bc704-00be-48d9-9519-be5f744d75a3" ChangeDateTime="11/04/2024 10:32:59">
+    <Property Name="ElementName" Value="[dbo].[Volume].[Edition]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Volume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EditionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="868d3160-6a73-457a-b8d3-203269617c03" ChangeDateTime="11/04/2024 10:41:30">
+    <Property Name="ElementName" Value="[dbo].[MMClientVolume].[VolumeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMClientVolume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VolumeISBN" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04e76958-2fe4-4de9-a2a7-5072bd379b61" ChangeDateTime="11/06/2024 14:52:53">
+    <Property Name="ElementName" Value="[dbo].[User].[isSeller]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsSeller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="435e380e-3169-4a9d-b79a-63310a1f5f43" ChangeDateTime="11/06/2024 15:12:15">
+    <Property Name="ElementName" Value="[dbo].[MMUserVolume].[Subtotal]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MMUserVolume]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalPrice" />
+  </Operation>
+</Operations>
